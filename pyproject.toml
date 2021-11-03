@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ee123 - bioelectricity"
+version = "0.1.0"
+description = ""
+authors = ["Rico Meinl <rmeinl97@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.10"
+numpy = "^1.21.2"
+matplotlib = "^3.4.3"
+scipy = "^1.7.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
